@@ -23,7 +23,7 @@ const SearchForm = ({ onSubmit, city, setCity, loading, error }) => {
         helperText={error.message}
       />
       <LoadingButton
-        sx={{ backgroundColor: "#B63CFE", "&:hover": { backgroundColor: "#A63CFE" }}}
+        sx={{ backgroundColor: "#B63CFE", "&:hover": { backgroundColor: "#6414ff" }}}
         type="submit"
         variant="contained"
         loading={loading}
