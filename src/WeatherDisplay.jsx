@@ -31,7 +31,6 @@ const WeatherDisplay = ({ weather }) => {
             margin: "0 auto",
             width: "100px",
             height: "100px",
-            marginRight: "10px",
           }}
         />
         <Typography variant="h5" component="h3">
