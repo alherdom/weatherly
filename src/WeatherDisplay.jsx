@@ -9,7 +9,7 @@ const WeatherDisplay = ({ weather }) => {
         display: "grid",
         gap: 2,
         textAlign: "center",
-        justifyContent: "center", // Centrar elementos dentro de la primera Box
+        justifyContent: "center",
       }}
     >
       <Typography variant="h4" component="h2">
@@ -32,7 +32,7 @@ const WeatherDisplay = ({ weather }) => {
           }}
         />
         <Typography variant="h5" component="h3">
-          {weather.temperature} °C
+         {" "}{weather.temperature}°C
         </Typography>
       </Box>
 
@@ -40,7 +40,16 @@ const WeatherDisplay = ({ weather }) => {
         {weather.conditionText}
       </Typography>
       <Typography variant="h5" component="h3">
-        {weather.temperature} °C
+        ☁️ {weather.cloud}%
+      </Typography>
+      <Typography variant="h5" component="h3">
+        🌡️ {weather.temperature}°C
+      </Typography>
+      <Typography variant="h5" component="h3">
+        🧖🏻 {weather.feelslike_c}°C
+      </Typography>
+      <Typography variant="h5" component="h3">
+        💨 {weather.wind_kph}kph
       </Typography>
     </Box>
   );
