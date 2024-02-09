@@ -70,7 +70,7 @@ const App = () => {
         error={error}
       />
       {weather.city && <WeatherDisplay weather={weather} />}
-      <Footer />
+      <Footer sx={{ bottom: 0, position: "fixed" }} />
     </Container>
   );
 };
