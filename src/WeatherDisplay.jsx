@@ -9,6 +9,7 @@ const WeatherDisplay = ({ weather }) => {
         display: "grid",
         gap: 2,
         textAlign: "center",
+        justifyContent: "center", // Centrar elementos dentro de la primera Box
       }}
     >
       <Typography variant="h4" component="h2">
