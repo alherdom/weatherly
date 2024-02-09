@@ -32,7 +32,8 @@ const WeatherDisplay = ({ weather }) => {
           }}
         />
         <Typography variant="h5" component="h3">
-         {" "}{weather.temperature}°C
+          {" "}
+          {weather.temperature}°C
         </Typography>
       </Box>
 
