@@ -38,7 +38,7 @@ const WeatherDisplay = ({ weather }) => {
       </Box>
 
       <Typography variant="h6" component="h4">
-        {weather.conditionText}
+        {weather.conditionText.toUpperCase()}
       </Typography>
       <Typography variant="h5" component="h3">
         ☁️ {weather.cloud}%
