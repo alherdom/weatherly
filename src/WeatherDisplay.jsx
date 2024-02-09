@@ -14,12 +14,23 @@ const WeatherDisplay = ({ weather }) => {
       <Typography variant="h4" component="h2">
         {weather.city}, {weather.country}
       </Typography>
-      <Box
-        component="img"
-        alt={weather.conditionText}
-        src={weather.icon}
-        sx={{ margin: "0 auto", width: "120px", height: "120px" }}
-      />
+      <Box sx={{ display: "flex", alignItems: "center" }}>
+        <Box
+          component="img"
+          alt={weather.conditionText}
+          src={weather.icon}
+          sx={{
+            margin: "0 auto",
+            width: "100px",
+            height: "100px",
+            marginRight: "10px",
+          }}
+        />
+        <Typography variant="h5" component="h3">
+          {weather.temperature} °C
+        </Typography>
+      </Box>
+
       <Typography variant="h6" component="h4">
         {weather.conditionText}
       </Typography>

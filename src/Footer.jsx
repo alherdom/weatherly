@@ -6,13 +6,13 @@ const Footer = () => {
     <Container>
       <Typography textAlign="center" sx={{ mt: 2 }}>
         Powered by{" "}
-        <a href="https://www.weatherapi.com/" title="Weather API">
+        <a href="https://www.weatherapi.com/" title="Weather API" target="_blank">
           WeatherAPI.com
         </a>
       </Typography>
       <Typography textAlign="center" sx={{ mt: 2 }}>
         Created by{" "}
-        <a href="https://github.com/alherdom" title="GitHub">
+        <a href="https://github.com/alherdom" title="GitHub" target="_blank">
           @alherdom
         </a>
       </Typography>

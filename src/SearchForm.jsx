@@ -12,7 +12,7 @@ const SearchForm = ({ onSubmit, city, setCity, loading, error }) => {
     >
       <TextField
         id="city"
-        label="Ciudad"
+        label="City, Country"
         variant="outlined"
         size="small"
         required
