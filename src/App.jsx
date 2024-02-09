@@ -60,7 +60,7 @@ const App = () => {
   };
 
   return (
-    <Container maxWidth="xs" sx={{ mt: 2 }}>
+    <Container maxWidth="md" sx={{ mt: 2 }}>
       <Header />
       <SearchForm
         onSubmit={onSubmit}
