@@ -17,7 +17,7 @@ const WeatherDisplay = ({ weather }) => {
       </Typography>
       <Box
         sx={{
-          display: "inline",
+          display: "inline-flex",
           justifyContent: "center",
         }}
       >
