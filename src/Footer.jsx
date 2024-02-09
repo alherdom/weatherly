@@ -9,7 +9,7 @@ const Footer = () => {
         <a href="https://github.com/alherdom" title="GitHub" target="_blank">
           @alherdom
         </a>
-          powered by{" "}
+          {" "}powered by{" "}
         <a href="https://www.weatherapi.com/" title="Weather API" target="_blank">
           WeatherAPI
         </a>
