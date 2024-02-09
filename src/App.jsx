@@ -60,7 +60,7 @@ const App = () => {
   };
 
   return (
-    <Container maxWidth="md" sx={{ mt: 2 }}>
+    <Container maxWidth="sm" sx={{ mt: 2 }}>
       <Header />
       <SearchForm
         onSubmit={onSubmit}
@@ -70,7 +70,7 @@ const App = () => {
         error={error}
       />
       {weather.city && <WeatherDisplay weather={weather} />}
-      <Footer sx={{ bottom: 0, position: "fixed" }} />
+      <Footer sx={{ position: "fixed", left: 0, right: 0, bottom: 0 }} />
     </Container>
   );
 };
