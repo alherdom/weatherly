@@ -14,7 +14,14 @@ const WeatherDisplay = ({ weather }) => {
       <Typography variant="h4" component="h2">
         {weather.city}, {weather.country}
       </Typography>
-      <Box sx={{ display: "flex", alignItems: "center", justifyContent: 'space-around' }}>
+      <Box
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-around",
+          textAlign: "center",
+        }}
+      >
         <Box
           component="img"
           alt={weather.conditionText}
