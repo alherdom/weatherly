@@ -43,13 +43,13 @@ const WeatherDisplay = ({ weather }) => {
         ☁️ {weather.cloud}%
       </Typography>
       <Typography variant="h5" component="h3">
+        💦 {weather.humidity}%
+      </Typography>
+      <Typography variant="h5" component="h3">
         🌡️ {weather.temperature}°C
       </Typography>
       <Typography variant="h5" component="h3">
         🧖🏻 {weather.feelslike_c}°C
-      </Typography>
-      <Typography variant="h5" component="h3">
-        💦 {weather.humidity}
       </Typography>
       <Typography variant="h5" component="h3">
         💨 {weather.wind_kph}kph
