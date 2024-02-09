@@ -28,7 +28,6 @@ const WeatherDisplay = ({ weather }) => {
           alt={weather.conditionText}
           src={weather.icon}
           sx={{
-            margin: "0 auto",
             width: "100px",
             height: "100px",
           }}
