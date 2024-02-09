@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Container>
       <Typography textAlign="center" sx={{ mt: 2 }}>
-        Created by{" "}
+        Made by{" "}
         <a href="https://github.com/alherdom" title="GitHub" target="_blank">
           @alherdom
         </a>
