@@ -19,7 +19,7 @@ const WeatherDisplay = ({ weather }) => {
         sx={{
           display: "inline-flex",
           alignItems: "center",
-          justifyContent: "space-between",
+          justifyContent: "center",
           textAlign: "center",
         }}
       >
