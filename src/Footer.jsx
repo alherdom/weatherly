@@ -4,7 +4,7 @@ import { Typography, Container } from "@mui/material";
 const Footer = () => {
   return (
     <Container>
-      <Typography textAlign="center" sx={{ mt: 2 }}>
+      <Typography textAlign="center" sx={{ mt: 2, font-size: '20px' }}>
         Made by{" "}
         <a href="https://github.com/alherdom" title="GitHub" target="_blank">
           @alherdom
