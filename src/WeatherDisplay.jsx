@@ -5,7 +5,6 @@ const WeatherDisplay = ({ weather }) => {
   return (
     <Box
       sx={{
-        mt: 2,
         display: "grid",
         gap: 2,
         textAlign: "center",

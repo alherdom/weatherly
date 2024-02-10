@@ -3,7 +3,7 @@ import { Typography, Container } from "@mui/material";
 
 const Header = () => {
   return (
-    <Container maxWidth="xs" sx={{}}>
+    <Container maxWidth="sm">
       <Typography variant="h2" component="h1" align="center" gutterBottom>
         Weatherly
       </Typography>

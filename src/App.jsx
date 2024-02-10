@@ -5,9 +5,7 @@ import SearchForm from "./SearchForm";
 import WeatherDisplay from "./WeatherDisplay";
 import Footer from "./Footer";
 
-const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=${
-  import.meta.env.VITE_API_KEY
-}&q=`;
+const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_API_KEY}&q=`;
 
 const App = () => {
   const [city, setCity] = useState("");
@@ -60,7 +58,7 @@ const App = () => {
   };
 
   return (
-    <Container maxWidth="sm" sx={{ mt: 2 }}>
+    <Container maxWidth="sm" sx={{ mt: 1 }}>
       <Header />
       <SearchForm
         onSubmit={onSubmit}
