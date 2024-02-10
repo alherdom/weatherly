@@ -1,4 +1,4 @@
-# Weatherly App
+# Weatherly
 
 Weatherly is a weather forecasting application built with React and JavaScript. It utilizes Material UI for its design components and is bundled using Vite. The app fetches weather data from the WeatherAPI and is deployed on Vercel.
 
