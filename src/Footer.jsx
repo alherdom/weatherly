@@ -11,7 +11,7 @@ const Footer = () => {
         </a>
           {" "}powered by{" "}
         <a href="https://www.weatherapi.com/" title="Weather API" target="_blank">
-          WeatherAPI
+          weatherAPI
         </a>
       </Typography>
     </Container>
