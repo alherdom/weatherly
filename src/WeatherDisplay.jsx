@@ -1,5 +1,9 @@
+// Import necessary modules
 import React from "react";
+// Import MUI components
 import { Box, Typography } from "@mui/material";
+// Import MUI styles
+import { darken } from "@mui/material/styles";
 // Function component that returns weather data
 const WeatherDisplay = ({ weather }) => {
   return (
@@ -39,7 +43,11 @@ const WeatherDisplay = ({ weather }) => {
         </Typography>
       </Box>
 
-      <Typography variant="h6" component="h4" sx={{ mt: -2 }}>
+      <Typography
+        variant="h6"
+        component="h4"
+        sx={{ mt: -2, color: darken("#B63CFE", 0.2), fontWeight: "bold" }}
+      >
         {weather.conditionText.toUpperCase()}
       </Typography>
       <Typography variant="h5" component="h3">

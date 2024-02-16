@@ -129,7 +129,7 @@ const App = () => {
         // Display loading indicator while fetching location and weather data
         <div style={{ textAlign: "center", marginTop: "20px" }}>
           <CircularProgress />
-          <p>Fetching location and weather data...</p>
+          <p>Fetching location and current weather conditions...</p>
         </div>
       ) : error.error ? (
         // Display error message if geolocation fails or weather data fetching fails
