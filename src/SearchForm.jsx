@@ -1,7 +1,7 @@
 import React from "react";
 import { LoadingButton } from "@mui/lab";
 import { Box, TextField } from "@mui/material";
-
+// Function component that returns a form for searching weather data
 const SearchForm = ({ onSubmit, city, setCity, loading, error }) => {
   return (
     <Box
@@ -27,9 +27,9 @@ const SearchForm = ({ onSubmit, city, setCity, loading, error }) => {
         type="submit"
         variant="contained"
         loading={loading}
-        loadingIndicator="Buscando..."
+        loadingIndicator="Searching..."
       >
-        Buscar
+        Search
       </LoadingButton>
     </Box>
   );

@@ -1,8 +1,9 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-
+// Function component that returns weather data
 const WeatherDisplay = ({ weather }) => {
   return (
+    // Box component with weather data
     <Box
       sx={{
         mt: 2,
@@ -42,19 +43,19 @@ const WeatherDisplay = ({ weather }) => {
         {weather.conditionText.toUpperCase()}
       </Typography>
       <Typography variant="h5" component="h3">
-        ☁️ {weather.cloud}%
+        ☁️ Cloud {weather.cloud}%
       </Typography>
       <Typography variant="h5" component="h3">
-        💦 {weather.humidity}%
+        💦 Humidity {weather.humidity}%
       </Typography>
       <Typography variant="h5" component="h3">
-        🌡️ {weather.temperature}°C
+        🌡️ Temperature {weather.temperature}°C
       </Typography>
       <Typography variant="h5" component="h3">
-        🧖🏻 {weather.feelslike_c}°C
+        🧖🏻 Feels like {weather.feelslike_c}°C
       </Typography>
       <Typography variant="h5" component="h3">
-        💨 {weather.wind_kph}kph
+        💨 Wind {weather.wind_kph}kph
       </Typography>
     </Box>
   );

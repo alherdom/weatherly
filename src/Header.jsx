@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Container } from "@mui/material";
-
+// Function component that returns the header
 const Header = () => {
   return (
     <Container maxWidth="sm">
