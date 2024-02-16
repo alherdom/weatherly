@@ -10,9 +10,9 @@ const WeatherDisplay = ({ weather }) => {
     // Box component with weather data
     <Box
       sx={{
-        mt: 2,
+        mt: 1,
         display: "grid",
-        gap: 2,
+        gap: 1,
         textAlign: "center",
         justifyContent: "center",
       }}
